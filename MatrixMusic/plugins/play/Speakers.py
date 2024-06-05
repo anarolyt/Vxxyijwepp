@@ -11,12 +11,12 @@ from MatrixMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
 
-@app.on_message(filters.regex("^المتكلمين$"))
+@app.on_message(filters.regex("^مين في الكول$"))
 async def strcall(client, message):
     assistant = await group_assistant(Zelzaly, message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("https://graph.org/file/217aac5f9cd2b05f7ba5a.mp4"), stream_type=StreamType().pulse_stream)
-        text = "~ المتكلمين بالأتصال :\n\n"
+        text = "~ الموجودين بالأتصال :\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k = 0
         for participant in participants:
