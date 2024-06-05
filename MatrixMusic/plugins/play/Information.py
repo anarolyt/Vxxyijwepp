@@ -5,7 +5,7 @@ from MatrixMusic import app
 @app.on_message(filters.command("معلومات المجموعة", prefixes=""))
 async def get_group_status(_, message: Message):
     if len(message.command) != 2:#BiLaL
-        await message.reply("الرجاء تقديم اسم مستخدم المجموعة. مثال: معلومات المجموعة vvizinn")
+        await message.reply("الرجاء تقديم اسم مستخدم المجموعة. مثال: معلومات المجموعة KKC8C")
         return
     
     group_username = message.command[1]
