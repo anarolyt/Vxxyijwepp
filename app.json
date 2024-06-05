@@ -14,12 +14,12 @@
     "env": {
       "BOT_TOKEN": {
         "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
-        "value": "",
+        "value": "7211970234:AAE1BBPHein8w_eXEAojLxaxHPQeJSSX9aY",
         "required": true
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
+        "value": "5940667480",
         "required": true
       },
       "STRING_SESSION": {
@@ -29,7 +29,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
-        "value": "",
+        "value": "HRKU-a974bb70-b21e-49a5-a035-9a45ee4386f1",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -39,7 +39,7 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "-100",
+        "value": "-1002199574133",
         "required": true
       }
     },
